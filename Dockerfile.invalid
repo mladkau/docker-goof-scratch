@@ -1,0 +1,6 @@
+FROM node@$.0
+
+RUN rm -fR /var/lib/dpkg
+RUN rm -fR /var/lib/apt
+
+
